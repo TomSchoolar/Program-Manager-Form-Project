@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Help_Text_Box.Text" xml:space="preserve">
+    <value>FAQ:
+
+Why are there multiple rows on the watchlist for the same show?
+
+A row including a show represents 1 episode of the show if you have multiple rows of the same show you have multiple episodes of the same show.
+
+
+Why Does my show apear before the air time?
+
+The air time is just for your benifit therfore the show will apear in your watchlist on the day not the time, so you can plan for the day. If you have a steaming service such as Netflix it does'nt matter when you set the time for as Netflix's tv shows work in the same way.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAAsOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+VxN//iLTX/4i01/+ItNf/iLTX/4i0
+        1/+ItNf/iLTX/4i01/+ItNf/iLTX/4i01/+ItNf/iLTX/6ve7P+w5O//sOTv/7Dk7/+n2en/sOTv/7Dk
+        7/+w5O//p9np/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//iLTX/7Dk
+        7/+w5O//ptjp/4Ww1f+w5O//sOTv/7Dk7/+Rv9z/sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/4i0
+        1/+w5O//sOTv/5LA3f9+qdH/sOTv/7Dk7/+w5O//msnh/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+ItNf/sOTv/7Dk7/+Mutn/msnh/5rJ4f+w5O//sOTv/4i01/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//iLTX/7Dk7/+w5O//iLTX/7Dk7/+ItNf/sOTv/7Dk7/+Rv9z/iLTX/4i01/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/4i01/+w5O//oNHl/5fH4P+w5O//iLTX/6nc6/+p3Ov/sOTv/7Dk7/+ItNf/sOTv/7Dk
+        7/+w5O//lcTf/4i01/+Er9T/iLTX/4ay1f+l1uj/sOTv/5rJ4f+l1uj/hrLV/4i01/+ItNf/jLrZ/7Dk
+        7/+w5O//ruLu/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6bY
+        6f+m2On/ruLu/6zg7f+SwN3/ksDd/5LA3f+SwN3/ksDd/5LA3f+SwN3/ksDd/5LA3f+SwN3/ksDd/5LA
+        3f+SwN3/ksDd/6zg7f+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAAsOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//lcTf/2CFv/9ghb//YIW//2CFv/9ghb//YIW//2CFv/9ghb//YIW//2CF
+        v/9ghb//YIW//2CFv/9ghb//YIW//2CFv/9ghb//YIW//2CFv/9ghb//YIW//2CFv/9ghb//YIW//2CF
+        v/9ghb//YIW//57P5P+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+Mutn/sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//kb/c/6ve7P+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/2CFv/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/9qkcX/ptjp/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+Er9T/sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//YIW//7Dk7/+w5O//sOTv/7Dk7/+w5O//iLTX/4u42f93oc3/sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/2CFv/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/9ghb//sOTv/7Dk7/+w5O//sOTv/7Dk7/90ncv/nMzj/2CF
+        v/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//YIW//7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/2CFv/+w5O//sOTv/7Dk7/+w5O//sOTv/3Sd
+        y/+czOP/YIW//7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+n2en/sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//YIW//7Dk7/+w5O//sOTv/7Dk
+        7/+q3ev/d6HN/57P5P9pkMT/p9np/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/2CFv/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/9ghb//sOTv/7Dk
+        7/+w5O//sOTv/36p0f+SwN3/sOTv/7Dk7/9ghb//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//YIW//7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/2CF
+        v/+w5O//sOTv/7Dk7/+w5O//fqnR/5LA3f+w5O//sOTv/2CFv/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/9ghb//ksDd/5LA3f+SwN3/n9Dl/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//YIW//7Dk7/+w5O//sOTv/7Dk7/9+qdH/ksDd/7Dk7/+w5O//YIW//7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/4Sv1P9+qdH/fqnR/3GZyf9+qdH/sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/9ghb//sOTv/7Dk7/+w5O//msnh/4Sv1P+i1Of/sOTv/7Dk7/+Hs9b/ibbX/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//ksDd/36p0f+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/2CFv/+w5O//sOTv/7Dk7/+ItNf/iLTX/7Dk7/+w5O//sOTv/6bY
+        6f9qkcX/sOTv/5XE3/+VxN//sOTv/7Dk7/+w5O//sOTv/7Dk7/+SwN3/fqnR/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/5jI4f9qkcX/apHF/2qRxf9qkcX/WXy6/2qRxf9qkcX/apHF/2GHv/+ItNf/sOTv/7Dk
+        7/+w5O//ptjp/2qRxf+w5O//iLTX/2GHv/9qkcX/apHF/2qRxf9qkcX/apHF/2SJwf9+qdH/sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//rODt/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6ve
+        7P+w5O//sOTv/7Dk7/+u4u7/qNrq/7Dk7/+r3uz/ptjp/6bY6f+m2On/ptjp/6bY6f+m2On/ptjp/6rd
+        6/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//q97s/5zM4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM
+        4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM
+        4/+czOP/nMzj/5zM4/+czOP/nMzj/5zM4/+r3uz/sOTv/7Dk7/+i1Of/dJ3L/3Sdy/90ncv/dJ3L/3Sd
+        y/90ncv/dJ3L/3Sdy/90ncv/dJ3L/3Sdy/90ncv/dJ3L/3Sdy/90ncv/dJ3L/3Sdy/90ncv/dJ3L/3Sd
+        y/90ncv/dJ3L/3Sdy/90ncv/dJ3L/3Sdy/90ncv/dJ3L/6LU5/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk7/+w5O//sOTv/7Dk
+        7/+w5O//sOTv/7Dk7/+w5O//sOTv/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
